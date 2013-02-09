@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_development_dependency(%q<hoe-travis>, ["~> 1.2"])
       s.add_development_dependency(%q<rake>, ["~> 10.0"])
-      s.add_development_dependency(%q<rspec>, ["~> 2.0"])
+      s.add_development_dependency(%q<rspec>, ["~> 2.12"])
       s.add_development_dependency(%q<hoe>, ["~> 3.5"])
     else
       s.add_dependency(%q<rubyforge>, [">= 2.0.4"])
@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_dependency(%q<hoe-travis>, ["~> 1.2"])
       s.add_dependency(%q<rake>, ["~> 10.0"])
-      s.add_dependency(%q<rspec>, ["~> 2.0"])
+      s.add_dependency(%q<rspec>, ["~> 2.12"])
       s.add_dependency(%q<hoe>, ["~> 3.5"])
     end
   else
@@ -57,7 +57,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
     s.add_dependency(%q<hoe-travis>, ["~> 1.2"])
     s.add_dependency(%q<rake>, ["~> 10.0"])
-    s.add_dependency(%q<rspec>, ["~> 2.0"])
+    s.add_dependency(%q<rspec>, ["~> 2.12"])
     s.add_dependency(%q<hoe>, ["~> 3.5"])
   end
 end
